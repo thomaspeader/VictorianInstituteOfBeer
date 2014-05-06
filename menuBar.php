@@ -2,10 +2,14 @@
 <style type="text/css">
     nav{
         background-color: #333333;
-        height: 100px;
+        width: 100%;
+        height: 60px;
+    }
+    nav a:visited{
+        color: #999
     }
     nav li{
-        display: inline-block;
+        position: absolute;
         padding: 20px;
         border: #999 2px dashed
         white-space: nowrap;
@@ -28,10 +32,14 @@
         background: #C41230;
         color:#FFF;
     }
+    nav details{
+        position: absolute;
+    }
     nav details > summary{
+        z-index: 10;
         cursor:pointer;
         background: #333;
-        margin:6px;
+        margin-top:-26px;
         padding:8px;
         color:#999;
         -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
@@ -47,14 +55,11 @@
         /*display: none;*/
     }
     nav details > a{
-        display:block;
+        display: block;
         text-decoration: none;
         color:#999;
         font-size:13px;
-        margin:3px 6px 3px 18px;
-        padding: 4px;
         background: #333;
-        z-index: 10;
     }
     nav details > a:hover{
         background: #C41230;
@@ -67,16 +72,15 @@
 </head>
 <nav>
 <ul>
-    <li><a href="">about us</a></li>
-    <li><a href="">beer club</a></li>
-    <li><a href="gallery.html">gallery</a></li>
-    <li><a href="contactForm.html">contact Page</a></li>
-    <li></li>
-</ul>
-<details>
+    <li><a href="index.html">about us</a></li>
+    <li style= "margin-left: 20%"><a href="">beer club</a></li>
+    <li style= "margin-left: 40%"><a href="gallery.html">gallery</a></li>
+    <li style= "margin-left: 60%"><a href="contactForm.html">contact Page</a></li>
+    <li style= "margin-left: 80%"><details>
     <summary>breweries</summary>
     <a href="#">Subcategory A</a>
     <a href="#">Subcategory B</a>
     <a href="#">Subcategory C</a>
-</details>
+    </details></li>
+</ul>
 </nav>

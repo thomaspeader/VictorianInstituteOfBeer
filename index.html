@@ -1,0 +1,60 @@
+<html>
+<head>
+	<style type="text/css">
+	.slider{
+		width: 800px;
+		height: 350px;
+		margin: 30px auto;
+		overflow: hidden;
+		background-image: url("images/loading.gif"); 
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.slider>img{
+		width: 800px;
+		height: 350px;
+		display: none;
+	}
+
+	</style>
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<header>
+	<?php include_once("menuBar.php") ?>
+</header>
+<body>
+	 <div id="wrapper">
+    
+        <!-- The slider wrapper div  -->
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+            
+                <!--  Images to slide through.  -->
+                <img src="images/3-ravens.jpg" data-thumb="images/3-ravens.jpg" alt="" width="800" height="350"/>
+                <img src="images/6.jpg" data-thumb="images/6.jpg" alt="" data-transition="slideInLeft" width="800" height="350" />
+                <img src="images/15351.jpg" data-thumb="images/15351.jpg" alt="" title="#htmlcaption" width="800" height="350" />
+            </div>
+            
+            <!--  Captions to show for images  -->
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+    </div>
+    
+    <!--  Load the javascript files  -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    
+    //<!--  Load the slider  --> 
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    
+    </script>
+</body>
+<footer></footer>
+</html>

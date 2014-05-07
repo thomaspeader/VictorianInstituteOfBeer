@@ -19,7 +19,7 @@
 
     }
    nav a{
-        padding: 12px 24px;
+        padding: 12px 20px;
         color:#999;
         background: #333;
         -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
@@ -41,7 +41,7 @@
         background: #333;
         margin-top:-26px;
         padding:8px;
-        color:#999;
+        color:#FFF;
         -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
         -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
         -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
@@ -77,7 +77,7 @@
     <li style= "margin-left: 60%"><a href="gallery.html">gallery</a></li>
     <li style= "margin-left: 70%"><a href="contactForm.html">contact Page</a></li>
     <li style= "margin-left: 80%"><details>
-    <summary>breweries</summary>
+    <summary>brewries</summary>
     <a href="#">Subcategory A</a>
     <a href="#">Subcategory B</a>
     <a href="#">Subcategory C</a>

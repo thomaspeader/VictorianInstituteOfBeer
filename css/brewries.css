@@ -5,15 +5,7 @@ body{
 	font-weight: normal;
 	font-style: normal;
 }
-.row {
-		  width: 100%;
-		  margin-left: auto;
-		  margin-right: auto;
-		  margin-top: 0;
-		  margin-bottom: 0;
-		  max-width: 62.5rem;
-		  *zoom: 1; 
-}
+
 .pic{
 	width:50px;
 	height:50px;
@@ -49,86 +41,8 @@ body{
 #wrapper{
 	z-index: 1;
 }
-html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin:0;
-	padding:0;
-	border:0;
-	outline:0;
-	font-weight:inherit;
-	font-style:inherit;
-	font-size:100%;
-	font-family:inherit;
-	vertical-align:baseline;
-}
-table {
-	border-collapse:separate;
-	border-spacing:0;
-}
-caption, th, td {
-	text-align:left;
-	font-weight:normal;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content:"";
-}
-blockquote, q {
-	quotes:"" "";
-}
-/* HTML5 tags */
-header, section, footer,
-aside, nav, article, figure {
-	display: block;
-}
-  .column,
-  .columns {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    float: left; }
 
-  .large-1 {
-    width: 8.33333%; }
 
-  .large-2 {
-    width: 16.66667%; }
-
-  .large-3 {
-    width: 25%; }
-
-  .large-4 {
-    width: 33.33333%; }
-
-  .large-5 {
-    width: 41.66667%; }
-
-  .large-6 {
-    width: 50%; }
-
-  .large-7 {
-    width: 58.33333%; }
-
-  .large-8 {
-    width: 66.66667%; }
-
-  .large-9 {
-    width: 75%; }
-
-  .large-10 {
-    width: 83.33333%; }
-
-  .large-11 {
-    width: 91.66667%; }
-
-  .large-12 {
-    width: 100%; 
-}
    a, a:visited {
     	text-decoration:none;
     }
@@ -156,9 +70,7 @@ aside, nav, article, figure {
     /*====================*/
     /*=== Other Styles ===*/
     /*====================*/
-    .clear {
-    	clear:both;
-    }
+   
      #header{
     width: 16%;
     height: 160px;
@@ -200,40 +112,20 @@ aside, nav, article, figure {
         padding: 12px 20px;
         color:#FFFFFF;
         background: #FF2C5F;
-        -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        transition: background 0.3s linear 0s, color 0.3s linear 0s;
     }
     nav a:hover{
         background: #C41230;
         color:#046BC4;
     }
-    nav details{
-        position: absolute;
-    }
     nav details > summary{
-        z-index: 10;
-        cursor:pointer;
         background: #FF2C5F;
-        margin-top:-26px;
-        padding:8px;
         color:#FFF;
-        -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
-        transition: background 0.3s linear 0s, color 0.3s linear 0s;
     }
     nav details > summary:hover{
         background: #C41230;
     }
     nav details > a{
-        display: block;
-        text-decoration: none;
         color:#FFF;
-        font-size:13px;
         background: #FF2C5F;
     }
     nav details > a:hover{

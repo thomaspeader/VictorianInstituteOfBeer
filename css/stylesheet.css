@@ -1,0 +1,129 @@
+body{
+	background: #929292;
+	line-height:1;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.pic{
+	width:50px;
+	height:50px;
+
+}
+.picbig{
+	position: absolute;
+	width:0px;
+	-webkit-transition:width 0.3s linear 0s;
+	transition:width 0.3s linear 0s;
+	z-index:10;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+.pic:hover + .picbig{
+	width:250px;
+}
+.slider{
+	width: 800px;
+	height: 350px;
+	margin: 0px auto;
+	overflow: hidden;
+	background-image: url("images/loading.gif"); 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.slider>img{
+	width: 800px;
+	height: 350px;
+	display: none;
+}
+#wrapper{
+	z-index: 1;
+}
+   a, a:visited {
+    	text-decoration:none;
+    }
+    a:hover, a:active {
+    	text-decoration:none;
+    }
+
+    #dev7link {
+        position:absolute;
+        top:0;
+        left:50px;
+        background:url(images/dev7logo.png) no-repeat;
+        width:60px;
+        height:67px;
+        border:0;
+        display:block;
+        text-indent:-9999px;
+    }
+
+    .slider-wrapper { 
+    	width: 80%; 
+    	margin: 0px auto;
+    }
+
+    /*====================*/
+    /*=== Other Styles ===*/
+    /*====================*/
+   
+    #header{
+    width: 100%;
+    height: 160px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+  }
+  #divider{
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+  }
+      nav{
+        background-color: #333333;
+        width: 100%;
+        height: 60px;
+    }
+    nav a:visited{
+        color: #999
+    }
+    nav li{
+        position: absolute;
+        padding: 20px;
+        border: #999 2px dashed
+        white-space: nowrap;
+        width: 15%;
+        min-width: 150px;
+
+
+    }
+   nav a{
+        padding: 12px 20px;
+        color:#999;
+        background: #333;
+    }
+    nav a:hover{
+        background: #C41230;
+        color:#FFF;
+    }
+    nav details > summary{
+        background: #333;
+        color:#FFF;
+    }
+    nav details > summary:hover{
+        background: #C41230;
+    }
+
+    nav details > a{
+        color:#999;
+        background: #333;
+    }
+    nav details > a:hover{
+        background: #C41230;
+        font-weight: bold;
+    }
+    nav details > a:before{
+        content: "- ";
+    }

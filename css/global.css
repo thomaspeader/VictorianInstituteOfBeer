@@ -1,0 +1,139 @@
+.row {
+		  width: 100%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top: 0;
+		  margin-bottom: 0;
+		  max-width: 62.5rem;
+		  *zoom: 1; 
+}
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left; }
+
+  .large-1 {
+    width: 8.33333%; }
+
+  .large-2 {
+    width: 16.66667%; }
+
+  .large-3 {
+    width: 25%; }
+
+  .large-4 {
+    width: 33.33333%; }
+
+  .large-5 {
+    width: 41.66667%; }
+
+  .large-6 {
+    width: 50%; }
+
+  .large-7 {
+    width: 58.33333%; }
+
+  .large-8 {
+    width: 66.66667%; }
+
+  .large-9 {
+    width: 75%; }
+
+  .large-10 {
+    width: 83.33333%; }
+
+  .large-11 {
+    width: 91.66667%; }
+
+  .large-12 {
+    width: 100%; 
+}
+.clear {
+    	clear:both;
+}
+nav{
+        width: 100%;
+        height: 60px;
+}
+nav li{
+        position: absolute;
+        padding: 20px;
+        white-space: nowrap;
+        width: 15%;
+        min-width: 150px;
+}
+nav a{
+        padding: 12px 20px;
+        -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+nav details{
+        position: absolute;
+}
+nav details > summary{
+        z-index: 10;
+        cursor:pointer;
+        margin-top:-26px;
+        padding:8px;
+        -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+        transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+nav details > summary::-webkit-details-marker{
+        display: none;
+}
+nav details > a{
+        display: block;
+        text-decoration: none;
+        font-size:13px;
+}
+nav details > a:hover{
+        font-weight: bold;
+}
+nav details > a:before{
+        content: "- ";
+}
+html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+table {
+	border-collapse:separate;
+	border-spacing:0;
+}
+caption, th, td {
+	text-align:left;
+	font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:"";
+}
+blockquote, q {
+	quotes:"" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}

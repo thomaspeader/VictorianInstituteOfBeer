@@ -1,9 +1,5 @@
 <div id="header">
-	<h1>
-		VICTORIAN<br>
-		INSTITUTE<br>
-		OF BEER
-	</h1>
-
+<div id="logo"
+<img src="images/logo.png" alt="Victorian Institute of Beer" >
 </div>
-<div id="divider"></div>
+</div>

@@ -1,5 +1,5 @@
 body{
-	background: #929292;
+	background: #FDF0D9;
 	line-height:1;
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-weight: normal;
@@ -24,22 +24,27 @@ body{
 .pic:hover + .picbig{
 	width:250px;
 }
-.slider{
-	width: 800px;
-	height: 350px;
-	margin: 0px auto;
+#slider{
+	width: 620px;
+	height: 240px;
+	margin: 0px auto;  
 	overflow: hidden;
 	background-image: url("images/loading.gif"); 
 	background-repeat: no-repeat;
 	background-position: center;
+    margin: 0px auto;
+    float: left; 
 }
-.slider>img{
-	width: 800px;
-	height: 350px;
+.slider:img{
+	width: 620px;
+	height: 240px;
 	display: none;
 }
 #wrapper{
 	z-index: 1;
+    margin-top: 40px;
+    margin-left: 80px; 
+    float:left;
 }
    a, a:visited {
     	text-decoration:none;
@@ -60,9 +65,9 @@ body{
         text-indent:-9999px;
     }
 
-    .slider-wrapper { 
-    	width: 80%; 
-    	margin: 0px auto;
+.slider-wrapper { 
+    	float:left;
+
     }
 
     /*====================*/
@@ -77,12 +82,26 @@ body{
 
    #logo{
     position: relative;
+    float:left;
     top: 40px;
-    left: 55px;
+    left: 30px;
     margin:0px;
-
-   
     }
+
+    .banner{
+    margin-top: 40px;
+    float: left;
+    }
+
+    #divider{
+    background-color: #FF2C5F;
+    width: 20px;
+    height: 120px;
+    display: inline-block;
+
+
+  }
+
 
     nav{
         background-color: #FF2C5F;

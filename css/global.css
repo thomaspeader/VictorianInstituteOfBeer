@@ -105,7 +105,7 @@ nav details > a:hover{
 nav details > a:before{
         content: "- ";
 }
-html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -142,3 +142,52 @@ header, section, footer,
 aside, nav, article, figure {
 	display: block;
 }
+.textbox{
+width:580px;
+background-color: #B1D1EC;
+padding: 20px;
+
+}
+    .beerClub{
+        width: 20%;
+        height: 240px;
+        width: 423px;
+        float: left;
+        position: relative;
+        margin-top: 40px;
+        margin-left: 10px;
+    
+       
+    }
+
+       .beerClub::after{
+        position: absolute;
+        content: "";
+        background: url('images/beer-tops-1.jpg');
+        background-size: 100%;
+        opacity: 0.5;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        
+        
+    }
+
+ 
+
+p{
+    color: #323333;
+    font-size: 12pt;
+    font-family: helvetica,arial, sans-serif}
+
+h1{ 
+    font-size:2em;
+    color: #1774C4;
+    font-family: 'Oswald', sans-serif; }
+
+h2{
+    color: #323333;
+    font-size: 14pt;
+    font-family: helvetica ,arial, sans-serif}
